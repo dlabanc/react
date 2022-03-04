@@ -1,13 +1,27 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.kisKartyak {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  text-align: center;
+}
+
+.nagyKep button {
+background: none;
+border:none;
+color:white;
+margin: 30px;
+font-size: 30px;
+}
+
+.nagyKep button:hover {
+  color:grey;
+  transition: .1s ease-in-out;
+  cursor: pointer;
+}
+.nagyKep button:active {
+  color:darkcyan;
+
 }
